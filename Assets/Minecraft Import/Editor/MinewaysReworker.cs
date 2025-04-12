@@ -141,7 +141,7 @@ public static class Globals {
     { "Iron_Bars"                       , (true , true ) },
     { "Iron_Ore"                        , (true , false) },
     { "Ladder"                          , (true , true ) },
-    { "Lantern"                         , (true , false) },
+    { "Lantern"                         , (true , true ) },
     { "Lapis_Lazuli_Ore"                , (true , false) },
     { "Lectern"                         , (true , false) },
     { "Lever"                           , (false, false) },
@@ -231,7 +231,7 @@ public static class Globals {
     { "Smooth_Basalt"                   , (true , false) },
     { "Smooth_Stone"                    , (true , false) },
     { "Soul_Fire"                       , (false, true ) },
-    { "Soul_Lantern"                    , (true , false) },
+    { "Soul_Lantern"                    , (true , true ) },
     { "Soul_Sand"                       , (true , false) },
     { "Soul_Soil"                       , (true , false) },
     // Name                                coll   cut
