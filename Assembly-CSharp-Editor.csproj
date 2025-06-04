@@ -1147,6 +1147,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="ArchiTech.SDK.Runtime">
+      <HintPath>Library\ScriptAssemblies\ArchiTech.SDK.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1207,8 +1211,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="ArchiTech.SDK.Editor">
+      <HintPath>Library\ScriptAssemblies\ArchiTech.SDK.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.XR.Oculus.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ArchiTech.ProTV.Editor">
+      <HintPath>Library\ScriptAssemblies\ArchiTech.ProTV.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VRC.Udon.Editor">
@@ -1269,6 +1281,10 @@
     </Reference>
     <Reference Include="VRC.SDKBase.Editor.ShaderStripping">
       <HintPath>Library\ScriptAssemblies\VRC.SDKBase.Editor.ShaderStripping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ArchiTech.ProTV.Runtime">
+      <HintPath>Library\ScriptAssemblies\ArchiTech.ProTV.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline">

@@ -5,6 +5,9 @@
     },
     "com.vrchat.worlds": {
       "version": "3.8.1"
+    },
+    "dev.architech.protv": {
+      "version": "3.0.0-beta.26.1"
     }
   },
   "locked": {
@@ -21,6 +24,19 @@
     "com.vrchat.base": {
       "version": "3.8.1",
       "dependencies": {}
+    },
+    "dev.architech.protv": {
+      "version": "3.0.0-beta.26.1",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.4",
+        "dev.architech.sdk": ">=0.21.1 <1"
+      }
+    },
+    "dev.architech.sdk": {
+      "version": "0.21.1",
+      "dependencies": {
+        "com.vrchat.worlds": "^3.4"
+      }
     }
   }
 }

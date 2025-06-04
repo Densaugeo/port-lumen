@@ -217,6 +217,18 @@
         "com.unity.ai.navigation": "1.1.5"
       }
     },
+    "dev.architech.protv": {
+      "version": "file:dev.architech.protv",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "dev.architech.sdk": {
+      "version": "file:dev.architech.sdk",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
