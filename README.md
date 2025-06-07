@@ -48,6 +48,9 @@ Reworker script performs the following fixes:
   * Use shader `Particles/Standard Surface`
   * Disable backface culling
   * Cutout rendering mode
-- Updates all other materials to:
+- Updates all non-sprite-like materials to:
   * Remove specular highlights
+- Updates all emissive materials to:
+  * Enable emission (no lighting yet)
+  * Use correspond emissive texture from `tex-emissive`
 - Attaches mesh colliders to all meshes that need them
