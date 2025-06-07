@@ -16,9 +16,10 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using VRC;
 
 public static class Globals {
-  public static Dictionary<string, (bool collider, bool cutout)> block_types = 
+  public static Dictionary<string, (bool collider, bool cutout)> block_types =
   new Dictionary<string, (bool, bool)> {
     // Name                                coll   cut
     { "Acacia_Fence"                    , (true , false) },
@@ -265,9 +266,9 @@ public static class Globals {
     { "Stripped_Dark_Oak_Log"           , (true , false) },
     { "Stripped_Oak_Log"                , (true , false) },
     { "Stripped_Spruce_Log"             , (true , false) },
-    { "Sugar_Cane"                      , (false, true) },
+    { "Sugar_Cane"                      , (false, true ) },
     // Name                                coll   cut
-    { "Sunflower"                       , (false, true) },
+    { "Sunflower"                       , (false, true ) },
     { "Tall_Grass"                      , (false, true ) },
     { "Tall_Seagrass"                   , (false, true ) },
     { "Target"                          , (true , false) },
@@ -289,11 +290,12 @@ public class MinewaysReworker : MonoBehaviour {
   public static void Run() {
     bool success;
     
-    string work_dir    = "Assets/Minecraft Import";
-    string path_obj    = work_dir + "/port-lumen.obj";
-    string path_prefab = work_dir + "/port-lumen.prefab";
-    string path_tex    = work_dir + "/tex";
-    string path_mats   = work_dir + "/Extracted Materials";
+    string work_dir          = "Assets/Minecraft Import";
+    string path_obj          = work_dir + "/port-lumen.obj";
+    string path_prefab       = work_dir + "/port-lumen.prefab";
+    string path_tex          = work_dir + "/tex";
+    string path_tex_emissive = work_dir + "/tex-emissive";
+    string path_mats         = work_dir + "/Extracted Materials";
     
     System.IO.File.Delete(path_prefab);
     System.IO.File.Delete(path_prefab + ".meta");
@@ -370,20 +372,52 @@ public class MinewaysReworker : MonoBehaviour {
     PrefabUtility.UnloadPrefabContents(prefab);
     System.Diagnostics.Trace.Assert(success);
     
-    foreach(var file in new System.IO.DirectoryInfo(path_tex).GetFiles("*.png")
-    ) {
-      var png = AssetImporter.GetAtPath(path_tex + "/" + file.Name)
-        as TextureImporter;
+    foreach(var file in new System.IO.DirectoryInfo(path_tex_emissive)
+    .GetFiles("*.png")) {
+      var png = AssetDatabase.LoadAssetAtPath<Texture>(path_tex_emissive + "/" +
+        file.Name);
+      var mat = AssetDatabase.LoadAssetAtPath<Material>(path_mats + "/" +
+        System.IO.Path.GetFileNameWithoutExtension(file.Name) + ".mat");
+
+      // Sometimes a texture doesn't have an associated material, such as if a
+      // block type was in a previous Mineways export but not the current one.
+      // This is fine, just skip it.
+      if (mat == null) continue;
       
+      mat.EnableKeyword("_EMISSION");
+      // Required for the emission checkbox in Unity to be enabled
+      mat.globalIlluminationFlags = MaterialGlobalIlluminationFlags.None;
+      // _EmissionColor seems to be the one actually used, but _Emission also
+      // exists and comments in example suggest they may get swapped
+      // occasionally, so it's best to set both to be the same
+      if(mat.HasFloat("_EmissionEnabled")) {
+        mat.SetFloat("_EmissionEnabled", 1);
+      }
+      mat.SetColor("_Emission", Color.white);
+      mat.SetColor("_EmissionColor", Color.white);
+      mat.SetTexture ("_EmissionMap", png);
+      mat.MarkDirty();
+    }
+    
+    pixelate_textures(path_tex);
+    pixelate_textures(path_tex_emissive);
+    
+    AssetDatabase.Refresh();
+  }
+  
+  public static void pixelate_textures(string folder) {
+    foreach (var file in new System.IO.DirectoryInfo(folder).GetFiles("*.png")
+    ) {
+      var png = AssetImporter.GetAtPath(folder + "/" + file.Name)
+        as TextureImporter;
+
       // This takes a long time to run, so check if it's really needed first
-      if(png.textureCompression != TextureImporterCompression.Uncompressed
+      if (png.textureCompression != TextureImporterCompression.Uncompressed
       || png.filterMode != FilterMode.Point) {
         png.textureCompression = TextureImporterCompression.Uncompressed;
         png.filterMode = FilterMode.Point;
         png.SaveAndReimport();
       }
     }
-    
-    AssetDatabase.Refresh();
   }
 }
