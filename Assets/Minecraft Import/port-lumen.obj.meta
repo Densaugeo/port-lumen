@@ -77,6 +77,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: MWO_redstone_dust_angled
+    second: {fileID: 2100000, guid: 653e095ddd8cba845b81bd5d6107395e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: MWO_redstone_dust_angled_off
     second: {fileID: 2100000, guid: 9814bcbb349ef5840a61bac94ce9f3bb, type: 2}
   - first:
@@ -132,6 +137,26 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: MW_decorated_pot_base1
+    second: {fileID: 2100000, guid: 23327ddf45fbaaf4caa86a4cd1428626, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MW_decorated_pot_base2
+    second: {fileID: 2100000, guid: 579a7042f80fd3747b030480b959760c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MW_decorated_pot_base3
+    second: {fileID: 2100000, guid: 61d32c2e21aa4554e96e707e87b5ef75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MW_decorated_pot_base4
+    second: {fileID: 2100000, guid: 127d8b43e6ca563498c20b8d82e8d46e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: acacia_leaves
     second: {fileID: 2100000, guid: eba3208cff2f24f44aa9a6cd81db8248, type: 2}
   - first:
@@ -174,6 +199,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: anvil
     second: {fileID: 2100000, guid: 0247c987b061df742b730f4d3d195768, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anvil_top
+    second: {fileID: 2100000, guid: 7ddc31501c827294784465d63cf14c64, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -302,6 +332,26 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: big_dripleaf_side
+    second: {fileID: 2100000, guid: 00f289dec01b8c042ae09a3874104764, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: big_dripleaf_stem
+    second: {fileID: 2100000, guid: d84fcfe98ae607544aa75f9c6774508d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: big_dripleaf_tip
+    second: {fileID: 2100000, guid: be8ad3d0ba2db2048b6fb182c94f164f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: big_dripleaf_top
+    second: {fileID: 2100000, guid: e605a038ca441f748ba3a13f6f0d41ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: birch_leaves
     second: {fileID: 2100000, guid: 735957b1e5e889748865e56cdbb68d19, type: 2}
   - first:
@@ -327,6 +377,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: blast_furnace_front_on
+    second: {fileID: 2100000, guid: c0f353e78ba9ed04dacf8e338322873d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: blast_furnace_side
     second: {fileID: 2100000, guid: 29c68cfbf5d1f9d4ab57ce74e7dd520f, type: 2}
   - first:
@@ -349,6 +404,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: blue_stained_glass_pane_top
     second: {fileID: 2100000, guid: ca11e91e496c44d42a92b60b9ce10599, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bone_block_side
+    second: {fileID: 2100000, guid: 2f4f4c401cb0ae2419264f02d7b4c2ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bone_block_top
+    second: {fileID: 2100000, guid: 7e89e9b287dae9048a0b8bed84135237, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -394,6 +459,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: campfire_log_lit
     second: {fileID: 2100000, guid: 6637832c0cf894548818353585c278e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: candle
+    second: {fileID: 2100000, guid: f4672b3925788b64581a6f1a1eb2c130, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -497,6 +567,21 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: chiseled_bookshelf_empty
+    second: {fileID: 2100000, guid: abc52c0ca614a834db882074e8f025da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chiseled_bookshelf_side
+    second: {fileID: 2100000, guid: b1d3d607453a7554b8df3786eaa32c1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chiseled_bookshelf_top
+    second: {fileID: 2100000, guid: ef1eb47981496fb4cbbef40018f0cdfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: chiseled_stone_bricks
     second: {fileID: 2100000, guid: 839418cc44ca06f4782cff4cbafeaf88, type: 2}
   - first:
@@ -552,6 +637,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: copper_block
+    second: {fileID: 2100000, guid: 31ca6541923824d488eafe023eae53af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: copper_ore
     second: {fileID: 2100000, guid: 46a7c629a8f1fb64281d319e7cf1599a, type: 2}
   - first:
@@ -579,6 +669,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: crafting_table_top
     second: {fileID: 2100000, guid: e7ccef8c0da104547b27e92b92b6326e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cut_copper
+    second: {fileID: 2100000, guid: aae199f7b1091ea48bfcb98474051c2a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -627,8 +722,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: decorated_pot_side
+    second: {fileID: 2100000, guid: dc0b1ad5b15839142aa8a292689e9954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: deepslate
+    second: {fileID: 2100000, guid: 0f69954a9d7e2d84ba7ff4baef00f142, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: deepslate_tiles
     second: {fileID: 2100000, guid: 6c0b9ba87f66fd143ab8ba778b1f16d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: deepslate_top
+    second: {fileID: 2100000, guid: 3c20ca3bb75fb81468f63245b4f24a57, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -662,6 +772,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: dropper_front
+    second: {fileID: 2100000, guid: 3692367b2f010da4998f89b6cf678e50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: emerald_ore
     second: {fileID: 2100000, guid: 5d48f4b3f4b6cc54c8a5ec0e4f046ced, type: 2}
   - first:
@@ -674,6 +789,21 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: enchanting_table_top
     second: {fileID: 2100000, guid: 42b630d873c58444e9852d3f9294e4cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: end_rod
+    second: {fileID: 2100000, guid: e8f2ee7f9e2a3bf4295eb03648f7ae2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: exposed_copper
+    second: {fileID: 2100000, guid: b675b3e1e45361443a50645d16b79115, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: exposed_cut_copper
+    second: {fileID: 2100000, guid: 9410c521550384945b6a56ee0a4240ea, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -757,6 +887,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: gold_block
+    second: {fileID: 2100000, guid: a95d82892e607fc4fbfe6264700325c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: granite
     second: {fileID: 2100000, guid: 7c3aa93ea2c592c4389bd187345c265f, type: 2}
   - first:
@@ -807,6 +942,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: hay_block_side
+    second: {fileID: 2100000, guid: 7aa30f7a02ccafd47a3babc2cc8d7860, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hay_block_top
+    second: {fileID: 2100000, guid: da2ea0436c1c10e40a61ab49c4c4cf79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: hopper_inside
     second: {fileID: 2100000, guid: 209ed09a5504c814387ca3cea95c9a9e, type: 2}
   - first:
@@ -834,6 +979,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: iron_ore
     second: {fileID: 2100000, guid: 1e480756ebc7fe54788a20e6d1f350f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jukebox_side
+    second: {fileID: 2100000, guid: 855c22fdf9aeb084096f8d19c1d10964, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jukebox_top
+    second: {fileID: 2100000, guid: 91163d6afe9dad6468f9673fd36ad515, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -897,6 +1052,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: light_gray_shulker_box
+    second: {fileID: 2100000, guid: 27faa7864e002794b8190dffcfeeba0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: light_gray_wool
     second: {fileID: 2100000, guid: 8020c63f68f83cd40be7e560ff659cef, type: 2}
   - first:
@@ -924,6 +1084,31 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: lily_pad
     second: {fileID: 2100000, guid: 3f9388715f7ac4d4e8d9374513e63549, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: loom_bottom
+    second: {fileID: 2100000, guid: 52244c30a8726e742b944d1b84fe644d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: loom_front
+    second: {fileID: 2100000, guid: 5baf1e2458baebf4497a5354b46c4ad1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: loom_side
+    second: {fileID: 2100000, guid: 46396ec1f45747147aa611575b28171e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: loom_top
+    second: {fileID: 2100000, guid: cc9cc71d1e4f40843b2f9b1911de2c90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: magenta_concrete
+    second: {fileID: 2100000, guid: 5f65defcae9c2b045828afc40428803d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -964,6 +1149,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: mud
     second: {fileID: 2100000, guid: b76f4cab749898b4babe90541617e538, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nether_bricks
+    second: {fileID: 2100000, guid: fff7643231cce3447921e4fb69e1557f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1064,6 +1254,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: oxidized_copper_door_top
     second: {fileID: 2100000, guid: 7ec3680a7c215ae4eac84487df0c1568, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oxidized_cut_copper
+    second: {fileID: 2100000, guid: f0acdb11e01d5e74d90d2ab7311d06a6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1212,6 +1407,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: prismarine_bricks
+    second: {fileID: 2100000, guid: 88013bff6817d234aac2f11817232069, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: pumpkin_side
     second: {fileID: 2100000, guid: 500a399c95e7bae438dbee98af3e9275, type: 2}
   - first:
@@ -1229,6 +1429,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: purple_stained_glass_pane_top
     second: {fileID: 2100000, guid: 6d9b00f69d2d00f4aa820b977bb3312c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: purpur_block
+    second: {fileID: 2100000, guid: 954953b19a494794c9147066e763defa, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1252,8 +1457,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: red_wool
+    second: {fileID: 2100000, guid: 90720359af3b75a44ac3742f871c46c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: redstone_block
+    second: {fileID: 2100000, guid: 46a9ae8b2b59c5c448b4b480d50a8bc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: redstone_dust_line0
     second: {fileID: 2100000, guid: c1d5a501e49a8e245926b12dcfd8c8fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: redstone_dust_line1
+    second: {fileID: 2100000, guid: 919463219ba888e4ca879d60135be5c9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1312,8 +1532,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: scaffolding_bottom
+    second: {fileID: 2100000, guid: 186e8e9202f0ad64aa64f4348c775a18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scaffolding_side
+    second: {fileID: 2100000, guid: e7c630208eada6f42adaf347965aaa3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scaffolding_top
+    second: {fileID: 2100000, guid: b79d34805a70f814893a1d0e15cc2271, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sea_lantern
+    second: {fileID: 2100000, guid: cd7eda047f0cea241bcf6d13d3c64429, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: short_grass
     second: {fileID: 2100000, guid: 7f4b549212b26a34e90d274190ad6bda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shulker_side_silver
+    second: {fileID: 2100000, guid: e531cb3665bc1f7448f8ec8e55e70516, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1339,6 +1584,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: smooth_stone
     second: {fileID: 2100000, guid: 81876d605e5d0ab44a1aeaf2e261defe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: smooth_stone_slab_side
+    second: {fileID: 2100000, guid: 728ca4413c271a34cb889bdaa90ccbe0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1512,8 +1762,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: terracotta
+    second: {fileID: 2100000, guid: 5181962d57d28a547af94358fc3f0014, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: torch
     second: {fileID: 2100000, guid: 7cd001e91a02cf44184c0e4c0d4cded8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tuff
+    second: {fileID: 2100000, guid: ea5dafd9319105d499f307a9a644e70e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1539,6 +1799,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: weathered_copper_grate
     second: {fileID: 2100000, guid: 1d9fce435bb19264a814e70abd832222, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: weathered_cut_copper
+    second: {fileID: 2100000, guid: 07fefcec1967d1e458aa1fbc78bf02ac, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
