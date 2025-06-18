@@ -4,14 +4,20 @@ VRChat upload of a Minecraft port city
 
 ## Mineways Export
 
+Download (in WSL):
+```bash
+cd ???
+???
+```
+
 Settings to import model from Mineways:
-- File > Open World > Den + Zy
+- File > Open World > Find Your World... > `C:\Users\Den Antares\Downloads\serverminer-download\port-lumen.den-antares.com33580\port-lumen\level.dat`
 - File > Export for Rendering (Ctrl+R)
 - `Assets/Minecraft Import/port-lumen.obj`
 - Depth = 39
 - Height = max (319)
 - X = -680..-326
-- Z = 133..405
+- Z = 90..435
 - Uncheck "Center model around the origin"
 - Ok
 
@@ -32,10 +38,10 @@ First time:
 Note that it can take 30+ minutes on first run. You can follow progress by watching materials created in `Assets/Den's Stuff/Mineways Export/Extracted Materials` and .meta files modified in `Assets/Den's Stuff/Mineways Export/tex`.
 
 Updates:
-- Delete .obj and .mtl files in `Assets/Minecraft Import`
+- Replace .obj and .mtl files in `Assets/Minecraft Import`
   * Do not delete associated .meta files. If you do, you will have to delete `Extracted Materials` and wait for the script to repopulate it
   * Deleting .prefab and .prefab.meta is not required, the script will do that itself
-- Place new .obj and .mtl files in `Assets/Minecraft Import`
+  * This can be done by manually placing the exported files, or by directly exporting to this location
 - Copy the `tex` folder into `Assets/Minecraft Import` and skip existing files (this is to add any new textures)
 - Launch Unity using same command as for first time import
 
