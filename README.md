@@ -6,8 +6,12 @@ VRChat upload of a Minecraft port city
 
 Download (in WSL):
 ```bash
-cd ???
-???
+cd VRChatProjects/port-lumen
+
+# Note: Config file `serverminer-download.toml` must be prepared according to
+# instructions in serverminer-download.py
+python3 serverminer-download.py
+python3 vrc-exporter.py
 ```
 
 Settings to import model from Mineways:

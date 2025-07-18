@@ -1,14 +1,26 @@
-# sudo dnf install python3-devel zlib-devel
+# sudo dnf install python3-devel zlib-devel # Fedora
+# sudo apt install g++ # Ubuntu
 # python -m pip install numpy==1.26.4
 # python -m pip install amulet-core==1.9.30
 
 import re, sys, typing, dataclasses, logging, contextlib, json, pathlib
-import builtins
+import builtins, tomllib
 logging.disable() # amulet is noisy, even at import
 import amulet, numpy
 
-world_path = pathlib.Path('/home/den-antares/projects/Port Lumen download for '
-    'testing/port-lumen.den-antares.com:33580/port-lumen')
+with open('serverminer-download.toml', 'rb') as f:
+    toml = tomllib.load(f)
+
+HOSTNAME = str(toml['hostname'])
+RCON_PORT = int(toml['rcon_port'])
+RCON_PASS = str(toml['rcon_pass'])
+FTP_PORT = int(toml['ftp_port'])
+FTP_USER = str(toml['ftp_user'])
+FTP_PASS = str(toml['ftp_pass'])
+WORLD_PATH = pathlib.Path(toml['world_path'])
+SAVE_PATH = pathlib.Path(toml['save_path'])
+
+world_path = pathlib.Path(f'{SAVE_PATH}/{HOSTNAME}:{FTP_PORT}/{WORLD_PATH}')
 x_min = -680
 x_max = -326
 y_min = 39
@@ -272,18 +284,22 @@ gltf = {
 }
 
 with status('Attaching bubble columns'):
-    for column in bubble_columns:
+    for i, column in enumerate(bubble_columns):
+        # Height is reduced by 1/8 block to account for water surface at top of
+        # being 1/8 block below block boundary
+        height = column.height - 0.125
+        
         gltf['scenes'][0]['nodes'].append(len(gltf['nodes']))
         gltf['nodes'].append({
-            'name': '_bubble_column',
+            'name': f'bubble-column-{i}',
             'translation': [
                 column.position.x + 0.5,
-                column.position.y + column.height/2,
+                column.position.y + height/2,
                 column.position.z + 0.5
             ],
-            'scale': [1, column.height, 1],
+            'scale': [1, height, 1],
         })
 
 with status(f'Saving as {style([BOLD, ORANGE], world_path.name + '.gltf')}'):
-    with open(world_path.name + '.gltf', 'w') as f:
+    with open(f'Assets/Minecraft Import/{world_path.name}.gltf', 'w') as f:
         json.dump(gltf, f)
