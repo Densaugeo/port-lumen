@@ -102,6 +102,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: MWO_redstone_dust_three_way
+    second: {fileID: 2100000, guid: 064fd9063cfd7a045a68436b9d072e85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: MWO_redstone_dust_three_way_off
     second: {fileID: 2100000, guid: bda5890c398215c4099389089cbdda05, type: 2}
   - first:
@@ -407,6 +412,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: blue_shulker_box
+    second: {fileID: 2100000, guid: a62407148bd568d4d833125ebecdc008, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: blue_stained_glass
     second: {fileID: 2100000, guid: 2e80841c8ec6b51429ccdea4e73dc75c, type: 2}
   - first:
@@ -449,6 +459,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: bricks
     second: {fileID: 2100000, guid: b86f1db9094dea448a45649d08a0b993, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bush
+    second: {fileID: 2100000, guid: 088ce66315b28ab44b793b5c36f96a15, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -677,6 +692,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: copper_bulb_lit
+    second: {fileID: 2100000, guid: dc77bcd0c1d05704587a3afb7e1d29e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: copper_ore
     second: {fileID: 2100000, guid: 46a7c629a8f1fb64281d319e7cf1599a, type: 2}
   - first:
@@ -689,6 +709,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: cornflower
     second: {fileID: 2100000, guid: e9162c63750c28046886f55bc82aac24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cracked_stone_bricks
+    second: {fileID: 2100000, guid: 822dbc73912cc9341863ed7626b1ea90, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -854,6 +879,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: farmland_moist
     second: {fileID: 2100000, guid: 479486688a9ece742af53f7f1534871d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: firefly_bush
+    second: {fileID: 2100000, guid: 86de7dd0356fef64793881bd1b3cb16a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1472,6 +1502,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: purple_shulker_box
+    second: {fileID: 2100000, guid: 1abf2519f57b06e43b097c9eda44ae25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: purple_stained_glass
     second: {fileID: 2100000, guid: 9fd1aa74b1211884f834e355ec07f797, type: 2}
   - first:
@@ -1552,6 +1587,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: repeater_on
+    second: {fileID: 2100000, guid: f2967c6209d0afa499473f9d3ab6706f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: resin_clump
+    second: {fileID: 2100000, guid: fe78ed6543f5dac4e84c3fa6b8a08a59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: rooted_dirt
     second: {fileID: 2100000, guid: 0abceec5a2aac4c4fa12697c87c890db, type: 2}
   - first:
@@ -1602,6 +1647,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: sculk
+    second: {fileID: 2100000, guid: f8c588ed6abaf3e4f9f9d1b1124f17c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: sea_lantern
     second: {fileID: 2100000, guid: cd7eda047f0cea241bcf6d13d3c64429, type: 2}
   - first:
@@ -1612,8 +1662,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: shulker_bottom_purple
+    second: {fileID: 2100000, guid: 88a792355ba78c1448f7b7856948c5b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: shulker_bottom_silver
     second: {fileID: 2100000, guid: 339d1c86b20898a459b299e8de9f2009, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shulker_side_blue
+    second: {fileID: 2100000, guid: f920b14c2197d324c86be9f92a0134ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shulker_side_purple
+    second: {fileID: 2100000, guid: c9ff02e5ed87c3248a4701465a9dcafa, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1854,6 +1919,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: water_still
     second: {fileID: 2100000, guid: dd7255b62d2e00e4fa9a649ad5ffc953, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: weathered_copper_bulb_lit
+    second: {fileID: 2100000, guid: c81f507f2329c6944bdd6d6241e59b11, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

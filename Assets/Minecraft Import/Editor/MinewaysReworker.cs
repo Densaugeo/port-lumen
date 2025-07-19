@@ -40,6 +40,7 @@ public static class Globals {
     { "Bamboo"                          , (true , true ) },
     { "Barrel"                          , (true , false) },
     { "Bed"                             , (true , false) },
+    { "Bedrock"                         , (true , false) },
     // Name                                coll   cut
     { "Bee_Nest"                        , (true , false) },
     { "Beehive"                         , (true , false) },
@@ -58,6 +59,7 @@ public static class Globals {
     { "Block_of_Redstone"               , (true , false) },
     { "Blue_Carpet"                     , (true , false) },
     { "Blue_Orchid"                     , (false, true ) },
+    { "Blue_Shulker_Box"                , (true , false) },
     { "Blue_Stained_Glass"              , (true , false) },
     { "Blue_Stained_Glass_Pane"         , (true , false) },
     { "Bone_Block"                      , (true , false) },
@@ -67,6 +69,7 @@ public static class Globals {
     { "Bricks"                          , (true , false) },
     { "Bubble_Column"                   , (false, false) },
     { "Burning_Furnace"                 , (true , false) },
+    { "Bush"                            , (false, true ) },
     { "Cactus"                          , (true , false) },
     { "Calcite"                         , (true , false) },
     { "Campfire"                        , (true , false) },
@@ -101,6 +104,7 @@ public static class Globals {
     { "Conduit"                         , (true , false) },
     { "Copper_Ore"                      , (true , false) },
     { "Cornflower"                      , (false, true ) },
+    { "Cracked_Stone_Bricks"            , (true , false) },
     { "Crafting_Table"                  , (true , false) },
     { "Cut_Copper"                      , (true , false) },
     { "Damaged_Anvil"                   , (true , false) },
@@ -150,6 +154,7 @@ public static class Globals {
     { "Exposed_Cut_Copper"              , (true , false) },
     { "Farmland"                        , (true , false) },
     { "Fence"                           , (true , false) },
+    { "Firefly_Bush"                    , (false, true ) },
     { "Fletching_Table"                 , (true , false) },
     { "Flowering_Azalea"                , (true , true ) },
     { "Flowering_Azalea_Leaves"         , (true , true ) },
@@ -200,6 +205,7 @@ public static class Globals {
     { "Mossy_Cobblestone"               , (true , false) },
     { "Mossy_Cobblestone_Wall"          , (true , false) },
     { "Mossy_Stone_Bricks"              , (true , false) },
+    { "Mossy_Stone_Brick_Stairs"        , (true , false) },
     { "Mud"                             , (true , false) },
     { "Nether_Portal"                   , (false, false) },
     { "Nether_Brick_Stairs"             , (true , false) },
@@ -250,6 +256,7 @@ public static class Globals {
     { "Prismarine_Brick_Stairs"         , (true , false) },
     { "Pumpkin"                         , (true , false) },
     { "Purple_Carpet"                   , (true , false) },
+    { "Purple_Shulker_Box"              , (true , false) },
     { "Purple_Stained_Glass"            , (true , false) },
     { "Purple_Stained_Glass_Pane"       , (true , false) },
     { "Purpur_Stairs"                   , (true , false) },
@@ -259,6 +266,7 @@ public static class Globals {
     { "Redstone_Comparator"             , (true , false) },
     { "Redstone_Lamp_(active)"          , (true , false) },
     { "Redstone_Repeater_(inactive)"    , (true , false) },
+    { "Redstone_Repeater_(active)"      , (true , false) },
     { "Redstone_Torch_(active)"         , (false, true ) },
     { "Redstone_Torch_(inactive)"       , (false, true ) },
     { "Redstone_Wire_power_0"           , (false, true ) },
@@ -278,12 +286,14 @@ public static class Globals {
     // Name                                coll   cut
     { "Redstone_Wire_power_14"          , (false, true ) },
     { "Redstone_Wire_power_15"          , (false, true ) },
+    { "Resin_Clump"                     , (false, true ) },
     { "Rooted_Dirt"                     , (true , false) },
     { "Rose_Bush"                       , (false, true ) },
     { "Sand"                            , (true , false) },
     { "Sandstone"                       , (true , false) },
     { "Sandstone_Stairs"                , (true , false) },
     { "Scaffolding"                     , (true , true ) },
+    { "Sculk"                           , (true , false) },
     { "Sea_Lantern"                     , (true , false) },
     { "Seagrass"                        , (false, true ) },
     { "Short_Grass"                     , (false, true ) },
@@ -337,8 +347,10 @@ public static class Globals {
     { "Tuff"                            , (true , false) },
     { "Vines"                           , (false, true ) },
     { "Wall_Banner"                     , (false, false) },
-    { "Waxed_Copper_Trapdoor"           , (true , true ) },
     { "Waxed_Block_of_Copper"           , (true , false) },
+    { "Waxed_Copper_Bulb"               , (true , false) },
+    { "Waxed_Copper_Trapdoor"           , (true , true ) },
+    { "Waxed_Weathered_Copper_Bulb"     , (true , false) },
     { "Weathered_Copper_Bulb"           , (true , false) },
     { "Weathered_Copper_Grate"          , (true , true ) },
     { "Weathered_Copper_Trapdoor"       , (true , true ) },
@@ -441,13 +453,19 @@ public class MinewaysReworker : MonoBehaviour {
     .GetFiles("*.png")) {
       var png = AssetDatabase.LoadAssetAtPath<Texture>(path_tex_emissive + "/" +
         file.Name);
+      var base_png = AssetDatabase.LoadAssetAtPath<Texture>(path_tex + "/" +
+        file.Name);
       var mat = AssetDatabase.LoadAssetAtPath<Material>(path_mats + "/" +
         System.IO.Path.GetFileNameWithoutExtension(file.Name) + ".mat");
-
+      
       // Sometimes a texture doesn't have an associated material, such as if a
       // block type was in a previous Mineways export but not the current one.
       // This is fine, just skip it.
       if (mat == null) continue;
+
+      // Setting an emissive texture sometimes overwrites the base texture,
+      // unless it is explicitly set
+      mat.SetTexture("_MainTex", base_png);
       
       mat.EnableKeyword("_EMISSION");
       // Required for the emission checkbox in Unity to be enabled

@@ -14,8 +14,8 @@ python3 serverminer-download.py
 python3 vrc-exporter.py
 ```
 
-Settings to import model from Mineways:
-- File > Open World > Find Your World... > `C:\Users\Den Antares\Downloads\serverminer-download\port-lumen.den-antares.com33580\port-lumen\level.dat`
+Export model from Mineways using these settings:
+- File > Open World > Find Your World... > `C:\Users\Den Antares\Downloads\serverminer-download\port-lumen.den-antares.com:33580\port-lumen\level.dat`
 - File > Export for Rendering (Ctrl+R)
 - `Assets/Minecraft Import/port-lumen.obj`
 - Depth = 39
@@ -27,10 +27,9 @@ Settings to import model from Mineways:
 
 ## Import
 
-First time:
-- Place .obj, .mtl, and `tex` folder in `Assets/Minecraft Import`
-- Lanuch Unity with the following command:
-```
+Launch Unity with the following command:
+
+```powershell
 & "C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe" `
 -projectPath "C:\Users\Den Antares\AppData\Local\VRChatCreatorCompanion\VRChatProjects\port-lumen" `
 -executeMethod MinewaysReworker.Run
@@ -41,15 +40,20 @@ First time:
 
 Note that it can take 30+ minutes on first run. You can follow progress by watching materials created in `Assets/Den's Stuff/Mineways Export/Extracted Materials` and .meta files modified in `Assets/Den's Stuff/Mineways Export/tex`.
 
-Updates:
-- Replace .obj and .mtl files in `Assets/Minecraft Import`
-  * Do not delete associated .meta files. If you do, you will have to delete `Extracted Materials` and wait for the script to repopulate it
-  * Deleting .prefab and .prefab.meta is not required, the script will do that itself
-  * This can be done by manually placing the exported files, or by directly exporting to this location
-- Copy the `tex` folder into `Assets/Minecraft Import` and skip existing files (this is to add any new textures)
-- Launch Unity using same command as for first time import
+Close Unity and relaunch with the following command:
+
+```powershell
+& "C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe" `
+-projectPath "C:\Users\Den Antares\AppData\Local\VRChatCreatorCompanion\VRChatProjects\port-lumen" `
+-executeMethod GLTFImport.Run
+```
+
+Notes regarding updates:
+- The Mineways config above replaces the .obj and .mtl files in `Assets/Minecraft Import`
+- Do not delete associated .meta files. If you do, you will have to delete `Extracted Materials` and wait for the script to repopulate it
 
 Reworker script performs the following fixes:
+- Deletes and replaces the .prefab and .prefab.meta from the Mineways export
 - Fixes texture blur by changing these settings on every imported texture image:
   * Filter mode = Point (no filter)
   * Compression = None
@@ -64,3 +68,7 @@ Reworker script performs the following fixes:
   * Enable emission (no lighting yet)
   * Use correspond emissive texture from `tex-emissive`
 - Attaches mesh colliders to all meshes that need them
+
+VRC Import script does the following:
+- Deletes and replaces the .prefab and .prefab.meta from the .gltf export
+- Places bubble column elevators as specified in the .gltf export
