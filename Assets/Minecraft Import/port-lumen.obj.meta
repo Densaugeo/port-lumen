@@ -197,6 +197,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: amethyst_block
+    second: {fileID: 2100000, guid: 365c1a2d53b85994a8069899313727e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: amethyst_cluster
+    second: {fileID: 2100000, guid: 85cd67ba41f493c4899a5a61d6908d97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: andesite
     second: {fileID: 2100000, guid: f3b0dafed569b5d4e9dbe3fa041be17b, type: 2}
   - first:
@@ -372,6 +382,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: black_concrete
+    second: {fileID: 2100000, guid: 264b66a04d503fb4c914f916bb32f5df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: black_stained_glass
     second: {fileID: 2100000, guid: 3a5c801093577a54198425c47988a3bb, type: 2}
   - first:
@@ -459,6 +474,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: bricks
     second: {fileID: 2100000, guid: b86f1db9094dea448a45649d08a0b993, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: budding_amethyst
+    second: {fileID: 2100000, guid: 1bbea06f575a8b04697a76b632937646, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -617,6 +637,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: cherry_trapdoor
+    second: {fileID: 2100000, guid: d55a32ad4f5566a40b71a371282980a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chipped_anvil_top
+    second: {fileID: 2100000, guid: 1de95832719933343a05e5f1c7f94aca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: chiseled_bookshelf_empty
     second: {fileID: 2100000, guid: abc52c0ca614a834db882074e8f025da, type: 2}
   - first:
@@ -629,6 +659,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: chiseled_bookshelf_top
     second: {fileID: 2100000, guid: ef1eb47981496fb4cbbef40018f0cdfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chiseled_deepslate
+    second: {fileID: 2100000, guid: 34d4b65182933b64dba19cba2356ed9b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -792,6 +827,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: deepslate_bricks
+    second: {fileID: 2100000, guid: 901b926126a3fa346befb0ade028abeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: deepslate_tiles
     second: {fileID: 2100000, guid: 6c0b9ba87f66fd143ab8ba778b1f16d0, type: 2}
   - first:
@@ -927,6 +967,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: furnace_front_on
+    second: {fileID: 2100000, guid: 711a587aa6c09c14d9572b31b3e99495, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: furnace_side
     second: {fileID: 2100000, guid: 105a05a2a97a2cf4ba2d61bf2dcfa7e1, type: 2}
   - first:
@@ -959,6 +1004,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: gold_block
     second: {fileID: 2100000, guid: a95d82892e607fc4fbfe6264700325c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gold_ore
+    second: {fileID: 2100000, guid: fcc46cc94e64f05479b12cbe00bd1f54, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
