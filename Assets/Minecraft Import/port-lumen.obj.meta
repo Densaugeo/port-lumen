@@ -497,6 +497,21 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: cake_bottom
+    second: {fileID: 2100000, guid: a96723535a1661a418aabc6aea6b4dfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cake_side
+    second: {fileID: 2100000, guid: 0260036811f528048a5b62585347c49a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cake_top
+    second: {fileID: 2100000, guid: ab2af5d8d3fcb234796e4f859da3936b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: calcite
     second: {fileID: 2100000, guid: b7b8cc8c7f9f8064ca77b0687540a8ce, type: 2}
   - first:
@@ -564,6 +579,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: cartography_table_top
     second: {fileID: 2100000, guid: e0753dc092368d64281fc4bca8aaa594, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cauldron_bottom
+    second: {fileID: 2100000, guid: 4b1b2758fed45614282cbcd3102f226f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -727,8 +747,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: copper_bulb
+    second: {fileID: 2100000, guid: 7bc1582e5b7e2fe499edb636d774c108, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: copper_bulb_lit
     second: {fileID: 2100000, guid: dc77bcd0c1d05704587a3afb7e1d29e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: copper_door_bottom
+    second: {fileID: 2100000, guid: 3e93f1ea26e507e48a6c9edf054bd9db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: copper_door_top
+    second: {fileID: 2100000, guid: 61f23ff5ffd81a0438a4d756a601bd24, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -744,6 +779,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: cornflower
     second: {fileID: 2100000, guid: e9162c63750c28046886f55bc82aac24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cracked_deepslate_tiles
+    second: {fileID: 2100000, guid: 5dc083a68b6abac4297fec93fed634fe, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -764,6 +804,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: crafting_table_top
     second: {fileID: 2100000, guid: e7ccef8c0da104547b27e92b92b6326e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: crying_obsidian
+    second: {fileID: 2100000, guid: 548049229070bc64eaec936b4db159c8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -804,6 +849,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: dark_oak_planks
     second: {fileID: 2100000, guid: d637b9d919bc32643ae17d8cbf442b19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark_oak_sapling
+    second: {fileID: 2100000, guid: 9391b51d2203a704aa0d7742626da894, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -902,6 +952,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: exposed_copper_grate
+    second: {fileID: 2100000, guid: b111bc092ba8ff745bc45839470753ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: exposed_copper_trapdoor
     second: {fileID: 2100000, guid: a8acd6fd1d5717045b88b90b20c695ae, type: 2}
   - first:
@@ -982,6 +1037,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: gilded_blackstone
+    second: {fileID: 2100000, guid: 18cd69986174e9644ba55129161fbb5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: glass
     second: {fileID: 2100000, guid: fd0d492ee2f5ba64899cfa985a960620, type: 2}
   - first:
@@ -1034,6 +1094,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: gray_wool
     second: {fileID: 2100000, guid: 8579095f42357f646bcac49015c048bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: green_shulker_box
+    second: {fileID: 2100000, guid: 253a9307e153da74685098a517f8186e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1382,6 +1447,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: oxidized_copper_grate
+    second: {fileID: 2100000, guid: cac767c4f8c11c745aabcd9549be459e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: oxidized_copper_trapdoor
     second: {fileID: 2100000, guid: 9d2eb1a7b908ac141990aa4d0bf849de, type: 2}
   - first:
@@ -1502,6 +1572,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: polished_andesite
+    second: {fileID: 2100000, guid: 61341027cd7a26a48812ad7fad6bfd54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: polished_diorite
     second: {fileID: 2100000, guid: 73a7e4ff9924dc940bd8cea5a4b66339, type: 2}
   - first:
@@ -1589,6 +1664,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: raw_copper_block
     second: {fileID: 2100000, guid: c14f875b3aa77074ea740950ec678323, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red_concrete
+    second: {fileID: 2100000, guid: 295c03bb57e550f42b7035002101e4ff, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1727,6 +1807,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: shulker_side_green
+    second: {fileID: 2100000, guid: d2523cad51cf28a47b1e9471a06d6cc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: shulker_side_purple
     second: {fileID: 2100000, guid: c9ff02e5ed87c3248a4701465a9dcafa, type: 2}
   - first:
@@ -1734,6 +1819,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: shulker_side_silver
     second: {fileID: 2100000, guid: e531cb3665bc1f7448f8ec8e55e70516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: slime_block
+    second: {fileID: 2100000, guid: 6982c44cfef6fe446b2f5426c87e4271, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
