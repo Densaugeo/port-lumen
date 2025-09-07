@@ -1242,6 +1242,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: light_gray_stained_glass
+    second: {fileID: 2100000, guid: 20470f255f0570147b3cbf643b2d15af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: light_gray_wool
     second: {fileID: 2100000, guid: 8020c63f68f83cd40be7e560ff659cef, type: 2}
   - first:
@@ -1672,6 +1677,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: red_shulker_box
+    second: {fileID: 2100000, guid: 353f4ae1c7d28b646874cf6eb415d30a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: red_tulip
     second: {fileID: 2100000, guid: e973e49a66a2c8a4f827d6d7e919893c, type: 2}
   - first:
@@ -1817,8 +1827,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: shulker_side_red
+    second: {fileID: 2100000, guid: 5d7f08163b58ae24e9c8d1faa8a8454f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: shulker_side_silver
     second: {fileID: 2100000, guid: e531cb3665bc1f7448f8ec8e55e70516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shulker_side_white
+    second: {fileID: 2100000, guid: 9ba5d36090ac5834498daed5734f6aad, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -2124,6 +2144,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: white_concrete
     second: {fileID: 2100000, guid: e26b4c956a532eb4e84a709f97935ae4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_shulker_box
+    second: {fileID: 2100000, guid: e1dd2c4b963dc144994b11dea4c50903, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
