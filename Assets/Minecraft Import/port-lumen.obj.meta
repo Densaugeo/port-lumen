@@ -257,6 +257,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: bamboo_planks
+    second: {fileID: 2100000, guid: 3864bf5d2564466419811f101362e07e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: bamboo_small_leaves
     second: {fileID: 2100000, guid: ae28d5e4eca3f424a8998989b8064bea, type: 2}
   - first:
@@ -717,6 +722,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: comparator_on
+    second: {fileID: 2100000, guid: 00b7cff48fdd0404aa65952bda5de6a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: composter_bottom
     second: {fileID: 2100000, guid: 6c7bf2adc88ef7d40bf6aeb35497f95c, type: 2}
   - first:
@@ -977,6 +987,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: fern
+    second: {fileID: 2100000, guid: 6b4f12d9a3b0ed64a9bda17f24d55ab4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: firefly_bush
     second: {fileID: 2100000, guid: 86de7dd0356fef64793881bd1b3cb16a, type: 2}
   - first:
@@ -1162,6 +1177,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: iron_door_bottom
+    second: {fileID: 2100000, guid: 4a5f0f3fd9496c74982c8dd00290ff17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: iron_door_top
+    second: {fileID: 2100000, guid: cd097c2022ef33848960a6864fcf222b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: iron_ore
     second: {fileID: 2100000, guid: 1e480756ebc7fe54788a20e6d1f350f4, type: 2}
   - first:
@@ -1199,6 +1224,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: lava_still
     second: {fileID: 2100000, guid: f1f5af4ed727e3c41863d97226f4f3e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf_litter
+    second: {fileID: 2100000, guid: abcd022f04ca9fa4cbf658f2ac9f3f86, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1584,6 +1614,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: polished_diorite
     second: {fileID: 2100000, guid: 73a7e4ff9924dc940bd8cea5a4b66339, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polished_granite
+    second: {fileID: 2100000, guid: c16886751eead824d87a7cb8f2339d9d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
