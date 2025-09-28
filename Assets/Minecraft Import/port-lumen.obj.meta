@@ -92,6 +92,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: MWO_redstone_dust_four_way
+    second: {fileID: 2100000, guid: d80861c19fc0ceb42953e1d8cb0fc39f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MWO_redstone_dust_four_way_off
+    second: {fileID: 2100000, guid: b94cdec43650e2044bda4933107e919a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: MWO_redstone_dust_line0_off
     second: {fileID: 2100000, guid: c27a4832113c6d54ab4e129a8cffd1b8, type: 2}
   - first:
@@ -287,6 +297,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: beacon
+    second: {fileID: 2100000, guid: 6c99225c48865b442b1e7e67852c79d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: bee_nest_bottom
     second: {fileID: 2100000, guid: 7550165747fafcb4bb1e7edcccf8bd60, type: 2}
   - first:
@@ -387,6 +402,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: birch_planks
+    second: {fileID: 2100000, guid: 0cd677c37e3f130469951924baca4bc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: black_concrete
     second: {fileID: 2100000, guid: 264b66a04d503fb4c914f916bb32f5df, type: 2}
   - first:
@@ -467,6 +487,21 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: brain_coral
+    second: {fileID: 2100000, guid: f646ba79b9f4974468a81ff09c5bbc02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brain_coral_block
+    second: {fileID: 2100000, guid: 82b718f5dc2c8db43836657eb3bfca64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brain_coral_fan
+    second: {fileID: 2100000, guid: c930fa811bce02243b3602752c33ff6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: brewing_stand
     second: {fileID: 2100000, guid: ce958e698b86b294181fadc8386d9bf8, type: 2}
   - first:
@@ -479,6 +514,21 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: bricks
     second: {fileID: 2100000, guid: b86f1db9094dea448a45649d08a0b993, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bubble_coral
+    second: {fileID: 2100000, guid: 02cb758add4d1264b8bbc17be81b300b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bubble_coral_block
+    second: {fileID: 2100000, guid: 969ad85ec65d8404882562a7b9be9304, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bubble_coral_fan
+    second: {fileID: 2100000, guid: a76c994547ba96e4cb3aa7ba9b4d5cf1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -504,6 +554,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: cake_bottom
     second: {fileID: 2100000, guid: a96723535a1661a418aabc6aea6b4dfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cake_inner
+    second: {fileID: 2100000, guid: 9a952db1c3d19f9458f49554178bcd20, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -847,6 +902,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: dark_oak_leaves
+    second: {fileID: 2100000, guid: 7380d36c42f2eae4d92fc564f1c8ef02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: dark_oak_log
     second: {fileID: 2100000, guid: 57fba0eba93e4fb47a05a9bb9b5eb445, type: 2}
   - first:
@@ -937,6 +997,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: dropper_front_vertical
+    second: {fileID: 2100000, guid: e8fb010d507f7ba47838c268ff2683fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: emerald_ore
     second: {fileID: 2100000, guid: 5d48f4b3f4b6cc54c8a5ec0e4f046ced, type: 2}
   - first:
@@ -989,6 +1054,21 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: fern
     second: {fileID: 2100000, guid: 6b4f12d9a3b0ed64a9bda17f24d55ab4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fire_coral
+    second: {fileID: 2100000, guid: 4174ef642984b29439a14e170181d656, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fire_coral_block
+    second: {fileID: 2100000, guid: 2c5c94e5bfc4f924a90116ef480ed383, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fire_coral_fan
+    second: {fileID: 2100000, guid: 967dbfbaa839bfc4d8198adebd911acd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1167,6 +1247,21 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: horn_coral
+    second: {fileID: 2100000, guid: 06fc9a6d3b536a944837b3fb447cf922, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: horn_coral_block
+    second: {fileID: 2100000, guid: 840697d855e2a72458e262d64521eeae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: horn_coral_fan
+    second: {fileID: 2100000, guid: 5b6760b956dc6d445983f281212a6f90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: iron_bars
     second: {fileID: 2100000, guid: 34ad188cbda61f543922edd9e1ce14c7, type: 2}
   - first:
@@ -1199,6 +1294,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: jukebox_top
     second: {fileID: 2100000, guid: 91163d6afe9dad6468f9673fd36ad515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kelp
+    second: {fileID: 2100000, guid: 52f261cb0056ba14299fdc2b6276a2f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kelp_plant
+    second: {fileID: 2100000, guid: af60bd9290829eb4eabeaa8b8afb615c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1447,6 +1552,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: orange_stained_glass
+    second: {fileID: 2100000, guid: 616ad405228dcfe458d3c6bf8eee5d32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: orange_tulip
     second: {fileID: 2100000, guid: 95f15a2c55532ef41b9131d14f928f5c, type: 2}
   - first:
@@ -1454,6 +1564,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: oxeye_daisy
     second: {fileID: 2100000, guid: 5d172ef490e175c42876545f5638f2db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oxidized_chiseled_copper
+    second: {fileID: 2100000, guid: 00eb40c1713e47146a8172814bac750c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1494,6 +1609,21 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: oxidized_cut_copper
     second: {fileID: 2100000, guid: f0acdb11e01d5e74d90d2ab7311d06a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: packed_ice
+    second: {fileID: 2100000, guid: cbe05301726016f4ca1d6f896cf70ea9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pale_oak_planks
+    second: {fileID: 2100000, guid: ea50538937e275d40a383cdae8ba2d54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pale_oak_trapdoor
+    second: {fileID: 2100000, guid: 2b8713c102158684d9053e31bce10123, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1612,6 +1742,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: polished_deepslate
+    second: {fileID: 2100000, guid: 64793acb9dd8d4f44bd407da86dc0384, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: polished_diorite
     second: {fileID: 2100000, guid: 73a7e4ff9924dc940bd8cea5a4b66339, type: 2}
   - first:
@@ -1692,6 +1827,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: quartz_block_side
+    second: {fileID: 2100000, guid: 0eda1ed405bc3ec4886a1028b6651c36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: quartz_block_top
+    second: {fileID: 2100000, guid: ee5d35b77bf366c4781d29f6249a00d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: rail
     second: {fileID: 2100000, guid: 88d4d9bb5301abb4ebe8793c16b59cab, type: 2}
   - first:
@@ -1714,6 +1859,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: red_shulker_box
     second: {fileID: 2100000, guid: 353f4ae1c7d28b646874cf6eb415d30a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red_stained_glass
+    second: {fileID: 2100000, guid: bc4001294d3eda54c85b8a22cb5e91e9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1832,6 +1982,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: sea_pickle
+    second: {fileID: 2100000, guid: d08e7b010fefb594a8387ed368211e8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: short_grass
     second: {fileID: 2100000, guid: 7f4b549212b26a34e90d274190ad6bda, type: 2}
   - first:
@@ -1909,6 +2064,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: smooth_stone_slab_side
     second: {fileID: 2100000, guid: 728ca4413c271a34cb889bdaa90ccbe0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: snow
+    second: {fileID: 2100000, guid: 57f12bbb40ad8e64bb4eb6ccfc495acb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -2092,6 +2252,21 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: tube_coral
+    second: {fileID: 2100000, guid: 298663e51bbff3748bbb2fe018a0437e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tube_coral_block
+    second: {fileID: 2100000, guid: 39765e00b6336304e9e5356b52844d67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tube_coral_fan
+    second: {fileID: 2100000, guid: 1891b2136e04c5040afc760697737e53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: tuff
     second: {fileID: 2100000, guid: ea5dafd9319105d499f307a9a644e70e, type: 2}
   - first:
@@ -2099,6 +2274,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: vine
     second: {fileID: 2100000, guid: 8aaf9ce90aae3684283204ee0bad085d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: warped_wart_block
+    second: {fileID: 2100000, guid: fcc514447dc7de84097465dcf36c4875, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
