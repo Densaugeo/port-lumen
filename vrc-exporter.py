@@ -1,7 +1,8 @@
 # sudo dnf install python3-devel zlib-devel # Fedora
 # sudo apt install g++ # Ubuntu
 # python -m pip install numpy==1.26.4
-# python -m pip install amulet-core==1.9.30
+# python -m pip install amulet-core==1.9.33
+# For Ubuntu, add --break-system-packages option to pip commands
 
 import re, sys, typing, dataclasses, logging, contextlib, json, pathlib
 import builtins, tomllib
