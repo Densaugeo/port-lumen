@@ -27,6 +27,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: MWO_dark_oak_shelf_back
+    second: {fileID: 2100000, guid: ce1efc2a981791c49ae641ff55edb724, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MWO_dark_oak_shelf_front
+    second: {fileID: 2100000, guid: b525304e2e8d7f74f87fbd2aa49a9f7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: MWO_double_chest_back_left
     second: {fileID: 2100000, guid: c77eeb29b02c9a64caeaefbd85dedb95, type: 2}
   - first:
@@ -767,6 +777,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: chiseled_copper
+    second: {fileID: 2100000, guid: f51338974b3b1644d99022853c557bfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: chiseled_deepslate
     second: {fileID: 2100000, guid: 34d4b65182933b64dba19cba2356ed9b, type: 2}
   - first:
@@ -822,6 +837,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: cobweb
+    second: {fileID: 2100000, guid: de87906c3bffe6543a23d25fe62c3876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: comparator
     second: {fileID: 2100000, guid: be2bb6a1fecc98c47850c9f8d37b2c57, type: 2}
   - first:
@@ -857,6 +877,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: copper_bars
+    second: {fileID: 2100000, guid: a68cd193898260841a3b87a0d7507a45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: copper_block
     second: {fileID: 2100000, guid: 31ca6541923824d488eafe023eae53af, type: 2}
   - first:
@@ -884,6 +909,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: copper_door_top
     second: {fileID: 2100000, guid: 61f23ff5ffd81a0438a4d756a601bd24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: copper_grate
+    second: {fileID: 2100000, guid: 98e0c6cb03f8e354aa8f31361f62173a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1872,6 +1902,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: polished_blackstone
+    second: {fileID: 2100000, guid: aac67fb9d2af01d4c9de1cc41fe79db5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: polished_blackstone_bricks
     second: {fileID: 2100000, guid: de5ca789b012dcc4b8e040871be63564, type: 2}
   - first:
@@ -2054,6 +2089,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: redstone_dust_line1
     second: {fileID: 2100000, guid: 919463219ba888e4ca879d60135be5c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: redstone_lamp
+    second: {fileID: 2100000, guid: b1586fbffe96e9345baca6698a846a15, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
