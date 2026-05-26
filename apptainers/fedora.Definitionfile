@@ -1,0 +1,7 @@
+Bootstrap: docker
+From: fedora:44
+
+%post
+    dnf update -y
+    dnf install -y git inotify-tools jq
+    git config --system --add safe.directory /repo

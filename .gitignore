@@ -9,4 +9,5 @@
 
 /Assets/Minecraft Import/*.obj
 /Assets/Minecraft Import/*.mtl
-serverminer-download.toml
+/serverminer-download.toml
+/apptainers/*.sif

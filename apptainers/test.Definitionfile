@@ -1,0 +1,6 @@
+Bootstrap: localimage
+From: apptainers/python3.14.sif
+
+%post
+    python3.14 -m pip install mcapy
+    python3.14 -m pip install anvil-parser2
