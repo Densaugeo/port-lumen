@@ -7,3 +7,4 @@ From: apptainers/opencode.sif
     ln -sf python3 /usr/bin/python
     python -m ensurepip
     python -m pip install --upgrade pip
+    python -m pip install python-lsp-server==1.14.0

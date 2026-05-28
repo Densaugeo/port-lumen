@@ -1,0 +1,17 @@
+{
+  "lspclient": {
+    "servers": {
+      "python": {
+        "command": [
+          "apptainer", "exec", "--containall",
+            "--bind", "%{Project:NativePath}:%{Project:NativePath}:rw",
+            "--cwd", "%{Project:NativePath}",
+            "%{Project:NativePath}/apptainers/test.sif",
+          "pylsp"
+        ],
+        "url": "https://github.com/python-lsp/python-lsp-server",
+        "highlightingModeRegex": "^Python$"
+      }
+    }
+  }
+}
