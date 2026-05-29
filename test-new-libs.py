@@ -14,6 +14,30 @@
 import re, sys, typing, dataclasses, logging, contextlib, json, pathlib
 import builtins, tomllib
 
+###################
+# Terminal Colors #
+###################
+
+RESET     = '\x1b[0m'
+BOLD      = '\x1b[1m'
+FAINT     = '\x1b[2m'
+ITALIC    = '\x1b[3m'
+UNDERLINE = '\x1b[4m'
+BLINK     = '\x1b[5m'
+INVERT    = '\x1b[7m'
+STRIKE    = '\x1b[9m'
+WHITE     = '\x1b[38;2;255;255;255m' #fff
+GRAY      = '\x1b[38;2;204;204;204m' #ccc
+MAGENTA   = '\x1b[38;2;255;0;255m'   #f0f
+VIOLET    = '\x1b[38;2;204;102;255m' #c6f
+BLUE      = '\x1b[38;2;68;170;221m'  #4ad
+CYAN      = '\x1b[38;2;68;221;221m'  #4dd
+AQUA      = '\x1b[38;2;26;186;151m'  #1aba97
+GREEN     = '\x1b[38;2;68;221;68m'   #4d4
+ORANGE    = '\x1b[38;2;236;182;74m'  #ecb64a
+RED       = '\x1b[38;2;255;0;0m'     #f00
+WARNING_ORANGE = '\x1b[38;2;246;116;0m' # from KWrite's makefile highlighting
+
 ##########################
 # Custom Data Structures #
 ##########################
@@ -53,14 +77,15 @@ z_max = 435
 
 print()
 
-print('Boundaries  Block  Chunk  Region')
-print(f'x_min:      {x_min: 4}   {x_min//16: 4}   {x_min//512: 4}')
-print(f'x_max:      {x_max: 4}   {x_max//16: 4}   {x_max//512: 4}')
-print(f'y_min:      {y_min: 4}   {y_min//16: 4}   {y_min//512: 4}')
-print(f'y_max:      {y_max: 4}   {y_max//16: 4}   {y_max//512: 4}')
-print(f'z_min:      {z_min: 4}   {z_min//16: 4}   {z_min//512: 4}')
-print(f'z_max:      {z_max: 4}   {z_max//16: 4}   {z_max//512: 4}')
-print()
+print(
+f'{BOLD}{WHITE}Boundaries{RESET}  Block  Chunk  Region\n'
+f'x_min: {VIOLET}{x_min:9} {BLUE}{x_min//16:6} {AQUA}{x_min//512:6}{RESET}\n'
+f'x_max: {VIOLET}{x_max:9} {BLUE}{x_max//16:6} {AQUA}{x_max//512:6}{RESET}\n'
+f'y_min: {VIOLET}{y_min:9} {BLUE}{y_min//16:6} {AQUA}{y_min//512:6}{RESET}\n'
+f'y_max: {VIOLET}{y_max:9} {BLUE}{y_max//16:6} {AQUA}{y_max//512:6}{RESET}\n'
+f'z_min: {VIOLET}{z_min:9} {BLUE}{z_min//16:6} {AQUA}{z_min//512:6}{RESET}\n'
+f'z_max: {VIOLET}{z_max:9} {BLUE}{z_max//16:6} {AQUA}{z_max//512:6}{RESET}\n'
+)
 
 region_indices = []
 for x in range(x_min//512, x_max//512 + 1):
@@ -73,7 +98,7 @@ print()
 # Testing Area #
 ################
 
-print('==== Testing mca library ====\n')
+print(f'{BOLD}{WHITE}==== Testing {CYAN}mca{WHITE} library ===={RESET}\n')
 
 import mca
 
@@ -82,10 +107,50 @@ for region_index in region_indices:
     regions.append(mca.Region.from_file(
         str(NEW_OVERWORLD / f'r.{region_index[0]}.{region_index[1]}.mca')))
 
-print('What\'s a Region look like?')
+print(f'{BOLD}{WHITE}What\'s a {VIOLET}Region{WHITE} look like?{RESET}')
 print(regions[1])
 print(dir(regions[1]))
 print()
+
+print(f'{BOLD}{WHITE}What\'s a {BLUE}Chunk{WHITE} look like?{RESET}')
+chunk = regions[1].get_chunk(3, 17)
+print(chunk)
+print(dir(chunk))
+#print(chunk.tile_entities)
+#print(chunk.tile_entities[0].pretty_tree())
+print()
+
+print(f'{BOLD}{WHITE}What\'s a {AQUA}Block{WHITE} look like?{RESET}')
+block = regions[1].get_chunk(3, 17).get_block(0, 0, 0)
+print(block)
+print(dir(block))
+#print(block.id)
+#print(block.name())
+#print(block.namespace)
+#print(block.properties)
+print()
+
+#print(f'{BOLD}{WHITE}What\'s an {MAGENTA}entity{WHITE} look like?{RESET}')
+#entity = regions[1].get_chunk(3, 17).tile_entities[0]
+#print(entity)
+#print(dir(entity))
+#print(entity.pretty_tree())
+#print(entity.id)
+#print(entity.items())
+#print(entity.keys())
+#print(entity.name)
+#print(entity.namestr())
+#print(entity.tags)
+#print(entity.value)
+#print(entity.values())
+#print(entity.valuestr())
+#print(entity.tags[0])
+#print(entity.tags[1])
+#print(entity.tags[2])
+#print(entity.tags[3])
+#print(entity.tags[4])
+#print(entity.tags[5])
+#print()
 
 bubble_column_blocks = []
 chiseled_bookshelves = []
@@ -166,35 +231,6 @@ print()
 #        print(entity.get('id').value)
 #        print(entity.get('front_text').get('messages'))
 
-
-#print(regions[1])
-#print(dir(regions[1]))
-#print(chunk)
-##print(dir(chunk))
-#print(chunk.tile_entities[0])
-#print(dir(chunk.tile_entities[0]))
-#print(chunk.tile_entities[0].id)
-#print(chunk.tile_entities[0].items)
-#print(chunk.tile_entities[0].keys())
-#print(chunk.tile_entities[0].name)
-#print(chunk.tile_entities[0].namestr)
-#print(chunk.tile_entities[0].tags)
-#print(chunk.tile_entities[0].value)
-#print(chunk.tile_entities[0].values())
-#print(chunk.tile_entities[0].valuestr)
-#print(chunk.tile_entities[0].tags[0])
-#print(chunk.tile_entities[0].tags[1])
-#print(chunk.tile_entities[0].tags[2])
-#print(chunk.tile_entities[0].tags[3])
-#print(chunk.tile_entities[0].tags[4])
-
-'''print(block)
-print(dir(block))
-print(block.id)
-print(block.name())
-print(block.namespace)
-print(block.properties)
-print()'''
 
 '''import anvil
 
