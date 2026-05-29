@@ -1,6 +1,8 @@
 install:
 	id agents || sudo useradd agents
 	sudo usermod --append --groups agents $$USER
+	echo '%agents ALL = (agents) NOPASSWD:/usr/bin/apptainer' | \
+		sudo EDITOR='cp /dev/stdin' visudo -f /etc/sudoers.d/agents
 
 test-apptainer: apptainers/test.sif
 	@printf '\n$(ORANGE)Session history is broken again but session can be '
