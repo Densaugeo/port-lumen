@@ -1,8 +1,0 @@
-Bootstrap: localimage
-From: apptainers/fedora.sif
-
-# npm takes a ridiculously long time to install (>10 minutes), so this is a
-# separate image for caching
-%post
-    dnf install -y nodejs
-    npm i -g opencode-ai@1.14.23

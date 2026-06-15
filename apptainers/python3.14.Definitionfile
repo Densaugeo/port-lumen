@@ -1,5 +1,5 @@
 Bootstrap: localimage
-From: apptainers/opencode.sif
+From: apptainers/fedora.sif
 
 %post
     dnf install -y python3.14

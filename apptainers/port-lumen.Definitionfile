@@ -1,0 +1,11 @@
+Bootstrap: localimage
+From: apptainers/python3.14.sif
+
+%environment
+    umask 002
+
+%files
+    requirements.txt /requirements.txt
+
+%post
+    python3.14 -m pip install -r /requirements.txt
