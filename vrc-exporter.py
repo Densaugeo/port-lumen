@@ -12,10 +12,13 @@
 #   to section is not allowed
 # - .get_palette() needs an update
 
-import sys, time, re, typing, dataclasses, logging, json, enum
+import os, sys, time, re, typing, dataclasses, logging, json, enum
 import pathlib, contextlib, tomllib
 
 import anvil, nbt
+
+# WTF Windows (needed for ANSI codes, for some reason)
+os.system('')
 
 ###################
 # Terminal Colors #

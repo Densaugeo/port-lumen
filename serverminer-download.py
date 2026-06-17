@@ -25,9 +25,12 @@
 # min = [-680, 39, 90]
 # max = [-326, 319, 435]
 
-import sys, shutil, pathlib, contextlib, tomllib, ftplib
+import os, sys, shutil, pathlib, contextlib, tomllib, ftplib
 
 import mcipc.rcon.je
+
+# WTF Windows (needed for ANSI codes, for some reason)
+os.system('')
 
 ###################
 # Terminal Colors #
@@ -113,10 +116,11 @@ def pause_saving():
 def download_with_progress(ftp: ftplib.FTP, src: pathlib.Path | str,
 dest: pathlib.Path | str):
     try:
-        size = ftp.size(str(src))
-    except ftplib.error_perm:
+        size = ftp.size(str(src.as_posix()))
+    except ftplib.error_perm as e:
         print(f'{BOLD}{RED}Error:{RESET} Cannot find file '
-            f'{VIOLET}ftp://{ftp.host}:{ftp.port}{src}{RESET}')
+            f'{VIOLET}ftp://{ftp.host}:{ftp.port}{src.as_posix()}{RESET}')
+        print(e)
         sys.exit(1)
     
     bytes_counts = [0, size]
@@ -129,7 +133,7 @@ dest: pathlib.Path | str):
             print(progress_template.format(*bytes_counts, color=VIOLET), end='')
             f.write(buffer)
         
-        ftp_server.retrbinary(f'RETR {src}', write_with_progress)
+        ftp_server.retrbinary(f'RETR {src.as_posix()}', write_with_progress)
     
     print(progress_template.format(*bytes_counts, color=AQUA))
 

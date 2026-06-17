@@ -4,19 +4,16 @@ VRChat upload of a Minecraft port city
 
 ## Mineways Export
 
-Download (in WSL):
-```bash
-cd VRChatProjects/port-lumen
-make apptainer
-
+Download (in powershell):
+```powershell
 # Note: Config file `port-lumen.toml` must be prepared according to
 # instructions in serverminer-download.py
-python serverminer-download.py
-python vrc-exporter.py
+py -3.14 serverminer-download.py
+py -3.14 vrc-exporter.py
 ```
 
 Export model from Mineways using these settings:
-- File > Open World > Find Your World... > `C:\Users\Den Antares\Downloads\serverminer-download\port-lumen.den-antares.com:33580\port-lumen\level.dat`
+- File > Open World > Find Your World... > `C:\Users\Den Antares\AppData\Local\VRChatCreatorCompanion\VRChatProjects\port-lumen\downloads\port-lumen\level.dat`
 - File > Export for Rendering (Ctrl+R)
 - `Assets/Minecraft Import/port-lumen.obj`
 - Depth = 39
