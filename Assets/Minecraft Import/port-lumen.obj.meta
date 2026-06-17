@@ -87,6 +87,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: MWO_pale_oak_shelf_back
+    second: {fileID: 2100000, guid: 5e38912262dda85409b05a8a7c71da1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MWO_pale_oak_shelf_front
+    second: {fileID: 2100000, guid: 8efd793017561aa499be5e22ba00b3d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: MWO_redstone_dust_angled
     second: {fileID: 2100000, guid: 653e095ddd8cba845b81bd5d6107395e, type: 2}
   - first:
@@ -279,6 +289,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: bamboo_planks
     second: {fileID: 2100000, guid: 3864bf5d2564466419811f101362e07e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bamboo_singleleaf
+    second: {fileID: 2100000, guid: a74b62f5bdbc523429dbbbcd6b27a094, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1067,6 +1082,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: detector_rail_on
+    second: {fileID: 2100000, guid: 4e55dd3084395814fa1c2854bd1ae4eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: diorite
     second: {fileID: 2100000, guid: 6741604393f3e434482cd1d9bf638044, type: 2}
   - first:
@@ -1407,6 +1427,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: iron_trapdoor
+    second: {fileID: 2100000, guid: 11e8793e44f2526488b92cfb55cb6067, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: jukebox_side
     second: {fileID: 2100000, guid: 855c22fdf9aeb084096f8d19c1d10964, type: 2}
   - first:
@@ -1414,6 +1439,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: jukebox_top
     second: {fileID: 2100000, guid: 91163d6afe9dad6468f9673fd36ad515, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jungle_planks
+    second: {fileID: 2100000, guid: 22620383bc8fe64418df92e713b9bb35, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1439,6 +1469,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: lapis_ore
     second: {fileID: 2100000, guid: 538124fff7d883b4cb0eace8fb8e2a2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: large_fern_bottom
+    second: {fileID: 2100000, guid: ebf4bc7c6670a264e89c9b1abaca38f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: large_fern_top
+    second: {fileID: 2100000, guid: 233257d7b4e116a4781a442c69076b0f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1537,6 +1577,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: lime_shulker_box
+    second: {fileID: 2100000, guid: b4b717456c6352247a12ffa1881fe264, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: loom_bottom
     second: {fileID: 2100000, guid: 52244c30a8726e742b944d1b84fe644d, type: 2}
   - first:
@@ -1604,6 +1649,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: mud
     second: {fileID: 2100000, guid: b76f4cab749898b4babe90541617e538, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mud_bricks
+    second: {fileID: 2100000, guid: 425af793112babe4a8e3a2edc0329f35, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1834,6 +1884,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: piston_top_sticky
     second: {fileID: 2100000, guid: e9f84591c36aa78418b9b4a72f7cb2f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pitcher_crop_bottom_stage_4
+    second: {fileID: 2100000, guid: dbda781783bd7f444ac3815fde2ab278, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pitcher_crop_top_stage_4
+    second: {fileID: 2100000, guid: 82f832beb2e715741a3e6c04738f645a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -2217,6 +2277,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: shulker_side_lime
+    second: {fileID: 2100000, guid: bd57c248a4c4c2e41b28c9ca6dc2046d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: shulker_side_purple
     second: {fileID: 2100000, guid: c9ff02e5ed87c3248a4701465a9dcafa, type: 2}
   - first:
@@ -2329,6 +2394,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: spruce_planks
     second: {fileID: 2100000, guid: a2e4fb06d46ca4246882cbce5cb337eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spruce_sapling
+    second: {fileID: 2100000, guid: e40c175c0f6cdb04a9eb75acb27553e0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -2494,6 +2564,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: vine
     second: {fileID: 2100000, guid: 8aaf9ce90aae3684283204ee0bad085d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: warped_fungus
+    second: {fileID: 2100000, guid: d79adaf09e947aa4e8f41dd7414af85e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
