@@ -15,6 +15,7 @@ using UnityEngine;
 using VRC;
 
 public class GLTFImport : MonoBehaviour {
+  [MenuItem("Port Lumen/GLTFImport")]
   public static void Run() {
     bool success;
     

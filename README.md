@@ -25,7 +25,11 @@ Export model from Mineways using these settings:
 
 ## Import
 
-Launch Unity with the following command:
+- Open project in Unity
+- Port Lumen > MinewaysReworker
+- Port Lumen > GLTFImport
+
+Scripts can also be run by starting Unity from Powershell using the right arguments:
 
 ```powershell
 & "C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe" `
@@ -36,15 +40,9 @@ Launch Unity with the following command:
 # later)
 ```
 
-Note that it can take 30+ minutes on first run. You can follow progress by watching materials created in `Assets/Den's Stuff/Mineways Export/Extracted Materials` and .meta files modified in `Assets/Den's Stuff/Mineways Export/tex`.
+Note that MinewaysReworker can take 30+ minutes on first run. You can follow progress by watching materials created in `Assets/Den's Stuff/Mineways Export/Extracted Materials` and .meta files modified in `Assets/Den's Stuff/Mineways Export/tex`.
 
 Close Unity and relaunch with the following command:
-
-```powershell
-& "C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe" `
--projectPath "C:\Users\Den Antares\AppData\Local\VRChatCreatorCompanion\VRChatProjects\port-lumen" `
--executeMethod GLTFImport.Run
-```
 
 Notes regarding updates:
 - The Mineways config above replaces the .obj and .mtl files in `Assets/Minecraft Import`

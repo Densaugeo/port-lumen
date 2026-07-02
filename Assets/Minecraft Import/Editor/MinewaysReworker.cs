@@ -547,6 +547,7 @@ public static class Globals {
 }
 
 public class MinewaysReworker : MonoBehaviour {
+  [MenuItem("Port Lumen/MinewaysReworker")]
   public static void Run() {
     bool success;
     
