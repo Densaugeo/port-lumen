@@ -6,6 +6,7 @@
 /[Oo]bj/
 /[Tt]emp/
 /[Uu]ser[Ss]ettings/
+/[Aa]ssets/[Ss]erialized[Uu]don[Pp]rograms/
 
 /Assets/Minecraft Import/*.obj
 /Assets/Minecraft Import/*.mtl
