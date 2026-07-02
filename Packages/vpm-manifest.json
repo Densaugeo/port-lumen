@@ -4,10 +4,10 @@
       "version": "0.1.29"
     },
     "com.vrchat.worlds": {
-      "version": "3.8.1"
+      "version": "3.10.4"
     },
     "dev.architech.protv": {
-      "version": "3.0.0-beta.26.1"
+      "version": "3.0.0-beta.29.4"
     }
   },
   "locked": {
@@ -16,24 +16,24 @@
       "dependencies": {}
     },
     "com.vrchat.worlds": {
-      "version": "3.8.1",
+      "version": "3.10.4",
       "dependencies": {
-        "com.vrchat.base": "3.8.1"
+        "com.vrchat.base": "3.10.4"
       }
     },
     "com.vrchat.base": {
-      "version": "3.8.1",
+      "version": "3.10.4",
       "dependencies": {}
     },
     "dev.architech.protv": {
-      "version": "3.0.0-beta.26.1",
+      "version": "3.0.0-beta.29.4",
       "dependencies": {
         "com.vrchat.worlds": "^3.4",
-        "dev.architech.sdk": ">=0.21.1 <1"
+        "dev.architech.sdk": ">=0.21.3 <1"
       }
     },
     "dev.architech.sdk": {
-      "version": "0.21.1",
+      "version": "0.22.0",
       "dependencies": {
         "com.vrchat.worlds": "^3.4"
       }

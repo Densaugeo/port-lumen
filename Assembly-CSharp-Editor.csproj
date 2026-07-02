@@ -476,6 +476,10 @@
       <HintPath>Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\Plugins\System.Text.Encoding.CodePages.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Packages\com.vrchat.base\Runtime\VRCSDK\Plugins\DOTween\Editor\DOTweenEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="SemanticVersioning">
       <HintPath>Packages\com.vrchat.core.vpm-resolver\Editor\Dependencies\SemanticVersioning.dll</HintPath>
       <Private>False</Private>
@@ -506,6 +510,10 @@
     </Reference>
     <Reference Include="VRC.Udon.EditorBindings">
       <HintPath>Packages\com.vrchat.worlds\Editor\Udon\External\VRC.Udon.EditorBindings.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Packages\com.vrchat.base\Runtime\VRCSDK\Plugins\DOTween\DOTween.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VRC.Udon.VRCTypeResolverModules">
@@ -1294,6 +1302,10 @@
     </Reference>
     <Reference Include="VRC.SDKBase.Editor.ShaderStripping">
       <HintPath>Library\ScriptAssemblies\VRC.SDKBase.Editor.ShaderStripping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween.Modules">
+      <HintPath>Library\ScriptAssemblies\DOTween.Modules.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ArchiTech.ProTV.Runtime">

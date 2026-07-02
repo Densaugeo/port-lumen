@@ -490,6 +490,10 @@
       <HintPath>Packages\com.vrchat.base\Runtime\VRCSDK\Plugins\VRC.SDK3.Dynamics.Constraint.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Packages\com.vrchat.base\Runtime\VRCSDK\Plugins\DOTween\DOTween.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="VRC.SDK3.Dynamics.PhysBone">
       <HintPath>Packages\com.vrchat.base\Runtime\VRCSDK\Plugins\VRC.SDK3.Dynamics.PhysBone.dll</HintPath>
       <Private>False</Private>
@@ -1228,6 +1232,10 @@
     </Reference>
     <Reference Include="VRC.SDKBase.Editor.ShaderStripping">
       <HintPath>Library\ScriptAssemblies\VRC.SDKBase.Editor.ShaderStripping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween.Modules">
+      <HintPath>Library\ScriptAssemblies\DOTween.Modules.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ArchiTech.ProTV.Runtime">
