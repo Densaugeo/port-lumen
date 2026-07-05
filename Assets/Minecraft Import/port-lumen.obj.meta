@@ -2462,6 +2462,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: stripped_oak_log_top
+    second: {fileID: 2100000, guid: 5aa9d207c73cf3c47879184d5cbba6e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: stripped_spruce_log
     second: {fileID: 2100000, guid: ba6b5ddab552ca846a29a9b2ae1b9019, type: 2}
   - first:
