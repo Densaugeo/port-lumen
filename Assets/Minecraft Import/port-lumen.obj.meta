@@ -1812,6 +1812,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: oxidized_lightning_rod
+    second: {fileID: 2100000, guid: a8fba5866e012d948b2ac4c4e5bb8486, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: packed_ice
     second: {fileID: 2100000, guid: cbe05301726016f4ca1d6f896cf70ea9, type: 2}
   - first:
