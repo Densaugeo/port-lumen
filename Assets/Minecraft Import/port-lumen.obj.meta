@@ -87,6 +87,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: MWO_oak_shelf_shelf_back
+    second: {fileID: 2100000, guid: 25b2a4d3d6240644a977face49a25522, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MWO_oak_shelf_shelf_front
+    second: {fileID: 2100000, guid: 40cc740bfbf470c4c8fa4a0ff6a7d8a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: MWO_pale_oak_shelf_back
     second: {fileID: 2100000, guid: 5e38912262dda85409b05a8a7c71da1c, type: 2}
   - first:
@@ -1442,6 +1452,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: jungle_leaves
+    second: {fileID: 2100000, guid: d8d45af8750fcbf4ea33a6dbd788d904, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: jungle_planks
     second: {fileID: 2100000, guid: 22620383bc8fe64418df92e713b9bb35, type: 2}
   - first:
@@ -2327,6 +2342,26 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: smoker_bottom
+    second: {fileID: 2100000, guid: b386ee09d63cded43b8b4a66426e9305, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: smoker_front
+    second: {fileID: 2100000, guid: d884accc2e7356748806aca2a0a8773c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: smoker_side
+    second: {fileID: 2100000, guid: a44600e9305d8e442918203c6bb473cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: smoker_top
+    second: {fileID: 2100000, guid: cfa288f305078484697d0afc47c64b92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: smooth_basalt
     second: {fileID: 2100000, guid: 7cd1f100573359c45bab026a417cf574, type: 2}
   - first:
@@ -2442,6 +2477,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: stripped_birch_log
+    second: {fileID: 2100000, guid: 01646393c84962b4d86ce439ea814993, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stripped_birch_log_top
+    second: {fileID: 2100000, guid: 6c8fac643e79a804fb7769742e5fabe5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: stripped_cherry_log
     second: {fileID: 2100000, guid: c9ea135e9bac91c4091f08231fb5c554, type: 2}
   - first:
@@ -2544,6 +2589,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: torch
     second: {fileID: 2100000, guid: 7cd001e91a02cf44184c0e4c0d4cded8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tripwire_hook
+    second: {fileID: 2100000, guid: db607447f3852824fa7bc9b44899afb1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
